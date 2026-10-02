@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+<link rel="stylesheet" href="styles_Q1Project.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="logo" src="student_logo.png" alt="student logo">
+            <ul class="navlinks">
+                <li><a href="#about" style="color:#d96846;">About Me</a></li>
+                <li><a href="#works" style="color:#d96846;">My Works</a></li>
+                <li><a href="#contact" style="color:#d96846;">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+       
+       
+         <img class ="PFP" src="student_pfp.png" alt="student profile picture" class="pfp">
+       
+        
+         <h1>Hi, I'm Unno</h1>
+        <p>Web Developer in Training</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi I am Unno I am good at drawing, making art, and web development.</p>
+    </section>
+
+    <section id="works">
+        <h2>My Works</h2>
+        <p>App Recommendations</p>
+       <div class="work-item">
+        <img src="DRILL1.png" alt="Drill 1">
+        <ul>
+            <li>HTML and CSS Properties</li>
+            <li>App Recommendations</li>
+            <li>Lists, Hyperlinks, Images</li>
+            <li><a href="SA_ICT9EMERALD_Q1Drill1_Cruz_Unno_.html" target="_blank">View</a></li>
+        </ul>
+    </div>
+
+           
+         <p>Other Works</p>
+        <div class="work-item">
+        <img src="Spongebob.jpeg" alt="Drawing of Spongebob">
+        <ul>
+            <li>Drawing of Spongebob with his friends.</li>
+            <li>Painting</li>
+            <li><a href="Spongebob.jpeg" target="_blank">View</a></li>
+        </ul>
+    </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="form-container">
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Unno Cruz" required>
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="unnocruz@gmail.com" required>
+                <br>
+
+
+                <label>How did you find me?</label>
+                <br>
+                <div class="radio-group">
+                    <input type="radio" id="r1" name="r-selection" value="1" required>
+                    <label for="r1">Facebook</label>
+
+
+                    <input type="radio" id="r2" name="r-selection" value="2" required>
+                    <label for="r2">Instagram</label>
+
+
+                    <input type="radio" id="r3" name="r-selection" value="3" required>
+                    <label for="r3">Discord</label>
+                </div>
+
+
+                <br>
+
+
+                <label>Interested in:</label>
+                <br>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="ch1" name="interests" value="checkbox1">
+                    <label for="ch1">Web Design</label>
+
+
+                    <input type="checkbox" id="ch2" name="interests" value="checkbox2">
+                    <label for="ch2">Graphics Design</label>
+
+
+                    <input type="checkbox" id="ch3" name="interests" value="checkbox3">
+                    <label for="ch3">Drawing</label>
+                </div>
+
+
+                <br>
+
+
+                <label for="selection">Rate My Portfolio</label>
+                <select id="selection" name="selection" required>
+                    <option value="">--Select Rating--</option>
+                    <option value="1">Bad</option>
+                    <option value="2">Good</option>
+                    <option value="3">Very Good</option>
+                    <option value="4">Excellent</option>
+                    <option value="5">Outstanding</option>
+                </select>
+
+
+                <br>
+
+
+                <label for="feedback">Any Feedback?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="write your feedback here..." required></textarea>
+
+
+                <br>
+
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <br>
+            <p>You can contact me at cruz.ub@obmontessori.edu.ph</p>
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p style="color: #d96846;">© 2026 Unno Cruz, 9-Emerald. All rights reserved.</p>
+    </footer>
+</body>
+</html>
